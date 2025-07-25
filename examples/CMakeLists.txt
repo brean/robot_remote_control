@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1.0)
 
-#add_subdirectory(extending/src)
+add_subdirectory(extending/src)
 
 add_executable(robot_remote_control-controlled_robot_bin ControlledRobotMain.cpp)
 target_link_libraries(robot_remote_control-controlled_robot_bin
